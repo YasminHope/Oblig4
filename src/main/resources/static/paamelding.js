@@ -22,4 +22,10 @@ class Paameldingsskjema {
         meldPåKnapp.addEventListener("click", () => registrering);
     }
 
+    registrering () {
+        const fornavn = this.#fornavn.value.trim();
+        const etternavn = this.#etternavn.value.trim();
+        const mobil = this.#mobil.value.trim();
+    }
+
 }
