@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class paameldingController {
     @GetMapping("/paamelding")
     public String paamelding(){
-        return "paamelding";
+        return "paameldingView";
     }
 
     @GetMapping("/deltagerliste")
     public String deltagerliste() {
-        return "deltagerliste";
+        return "deltagerlisteView";
     }
 
     @GetMapping("/paameldt")
